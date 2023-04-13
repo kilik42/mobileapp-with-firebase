@@ -7,4 +7,25 @@ html, body{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333;
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+input{
+    color: #432000;
+    background-color: #DCE1EB;
+}
+
+button{
+    color: #FDFDFD;
+    background-color: #AC485A;
 }
